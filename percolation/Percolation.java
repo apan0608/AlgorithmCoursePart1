@@ -119,22 +119,24 @@ public class Percolation {
 
     // is the site (row, col) open ?
     public boolean isOpen(int row, int col) {
-        if (row <= 0 || col <= 0 || row > width || col > width) {
-            throw new IllegalArgumentException("Given row and col are out of range");
-        }
+        throwExceptionIfOutOfRange(row, col);
+
         int index = getSiteIndex(row, col);
         return sites[index] > -1;
     }
 
     // is the site (row, col) full ?
-    // todo why do I need to implement is full? I am not using it anywhere
+    // Percolation visualizer uses it to set colour on the site
     public boolean isFull(int row, int col) {
-        throw new IllegalArgumentException("Given row and col are out of range");
+        throwExceptionIfOutOfRange(row, col);
+        return connected(getSiteIndex(row, col), 0);
     }
+
+
 
     // returns the numbers of open sites
     public int numberOfOpenSites() {
-        int openSites = 0;
+        int openSites = -2; // offset the two virtual sites first
         for (int site: sites) {
             if (site > -1){
                 openSites++;
@@ -146,7 +148,18 @@ public class Percolation {
     // does the system percolates
     public boolean percolates() {
         // the top virtual site connects to the bottom virtual site
-        return getRoot(0) == getRoot(sites.length - 1);
+        return connected(0, sites.length - 1);
+    }
+
+
+    private boolean connected(int siteA, int siteB) {
+        return getRoot(siteA) == getRoot(siteB);
+    }
+
+    private void throwExceptionIfOutOfRange(int row, int col) {
+        if (row <= 0 || col <= 0 || row > width || col > width) {
+            throw new IllegalArgumentException("Given row and col are out of range");
+        }
     }
 
 }

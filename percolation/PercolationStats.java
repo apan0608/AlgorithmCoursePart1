@@ -5,8 +5,7 @@
  **************************************************************************** */
 
 
-import java.math.BigDecimal;
-import java.util.Arrays;
+import edu.princeton.cs.algs4.StdRandom;
 
 public class PercolationStats {
     public static void main(String[] args) {
@@ -18,7 +17,6 @@ public class PercolationStats {
     private double avgThreshold;
     private double mean;
     private double deviation;
-    private double interval;
 
     // performa independant trials on an n-by-n grid
     public PercolationStats(int n, int trials) {
@@ -33,10 +31,13 @@ public class PercolationStats {
             do {
                 // get a random row and random col
                 // open the site
-                // if the site is
+                int randomRow = StdRandom.uniform(1, n);
+                int randomCol = StdRandom.uniform(1, n);
 
-
-            } while (!trial.percolates())
+                trial.open(randomRow, randomCol);
+            } while (!trial.percolates());
+            // when it percolates, get the mean
+            threshods[i] = trial.numberOfOpenSites() / n * n;
         }
     }
 
@@ -60,15 +61,15 @@ public class PercolationStats {
 
     // low endpoint of 95% confidence interval
     public double confidenceLo() {
-        return mean - interval;
+        return mean - interval();
     }
 
     // high endpoint of 95% of confidence interval
     public double confidenceHi() {
-        return mean + interval;
+        return mean + interval();
     }
 
     private double interval() {
-        this.interval = (1.96 * deviation) / Math.sqrt(trials);
+        return (1.96 * deviation) / Math.sqrt(trials);
     }
 }
