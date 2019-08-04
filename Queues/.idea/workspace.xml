@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f507b2ca-181d-45d0-99e7-d6b71981bbe6" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/com/company/Permutation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/RandomizedQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/TestRandomizedQueue.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Queues/com/company/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Deque.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Deque.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/company/TestDeque.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/TestDeque.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../percolation/.idea/checkstyle-idea.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../percolation/.idea/checkstyle-idea.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../percolation/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../percolation/.idea/workspace.xml" afterDir="false" />
@@ -163,7 +164,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
@@ -179,12 +182,12 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/company/TestDeque.java</url>
-          <line>78</line>
+          <line>77</line>
           <option name="timeStamp" value="8" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/company/TestDeque.java</url>
-          <line>68</line>
+          <line>67</line>
           <option name="timeStamp" value="13" />
         </line-breakpoint>
       </breakpoints>
