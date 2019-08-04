@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f507b2ca-181d-45d0-99e7-d6b71981bbe6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/company/Permutation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/RandomizedQueue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/TestRandomizedQueue.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/TestDeque.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/TestDeque.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Queues/com/company/TestDeque.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Queues/com/company/TestDeque.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/RandomizedQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/RandomizedQueue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/TestRandomizedQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/TestRandomizedQueue.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../percolation/.idea/checkstyle-idea.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../percolation/.idea/checkstyle-idea.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../percolation/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../percolation/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -55,8 +54,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TestDeque.testNext_NoMoreElement_Exception">
-    <configuration name="TestDeque.testGetIterator" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.TestRandomizedQueue.testIterator">
+    <configuration name="TestRandomizedQueue.testDequeue_Empty_Exception" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Queues" />
       <extension name="coverage">
         <pattern>
@@ -65,14 +64,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.company" />
-      <option name="MAIN_CLASS_NAME" value="com.company.TestDeque" />
-      <option name="METHOD_NAME" value="testGetIterator" />
+      <option name="MAIN_CLASS_NAME" value="com.company.TestRandomizedQueue" />
+      <option name="METHOD_NAME" value="testDequeue_Empty_Exception" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestDeque.testNext_IteratorRemove_Exception" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestRandomizedQueue.testIterator" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Queues" />
       <extension name="coverage">
         <pattern>
@@ -81,14 +80,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.company" />
-      <option name="MAIN_CLASS_NAME" value="com.company.TestDeque" />
-      <option name="METHOD_NAME" value="testNext_IteratorRemove_Exception" />
+      <option name="MAIN_CLASS_NAME" value="com.company.TestRandomizedQueue" />
+      <option name="METHOD_NAME" value="testIterator" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestDeque.testNext_NoMoreElement_Exception" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestRandomizedQueue.testIteratorNext_NoMore_Exception" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Queues" />
       <extension name="coverage">
         <pattern>
@@ -97,14 +96,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.company" />
-      <option name="MAIN_CLASS_NAME" value="com.company.TestDeque" />
-      <option name="METHOD_NAME" value="testNext_NoMoreElement_Exception" />
+      <option name="MAIN_CLASS_NAME" value="com.company.TestRandomizedQueue" />
+      <option name="METHOD_NAME" value="testIteratorNext_NoMore_Exception" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestDeque.testRemoveLast" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestRandomizedQueue.testSample" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Queues" />
       <extension name="coverage">
         <pattern>
@@ -113,14 +112,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.company" />
-      <option name="MAIN_CLASS_NAME" value="com.company.TestDeque" />
-      <option name="METHOD_NAME" value="testRemoveLast" />
+      <option name="MAIN_CLASS_NAME" value="com.company.TestRandomizedQueue" />
+      <option name="METHOD_NAME" value="testSample" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestDeque.testRemoveLast_DequeEmpty_Exception" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestRandomizedQueue.testSample_Empty_Exception" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Queues" />
       <extension name="coverage">
         <pattern>
@@ -129,8 +128,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.company" />
-      <option name="MAIN_CLASS_NAME" value="com.company.TestDeque" />
-      <option name="METHOD_NAME" value="testRemoveLast_DequeEmpty_Exception" />
+      <option name="MAIN_CLASS_NAME" value="com.company.TestRandomizedQueue" />
+      <option name="METHOD_NAME" value="testSample_Empty_Exception" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -138,11 +137,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.TestDeque.testNext_NoMoreElement_Exception" />
-        <item itemvalue="JUnit.TestDeque.testNext_IteratorRemove_Exception" />
-        <item itemvalue="JUnit.TestDeque.testGetIterator" />
-        <item itemvalue="JUnit.TestDeque.testRemoveLast_DequeEmpty_Exception" />
-        <item itemvalue="JUnit.TestDeque.testRemoveLast" />
+        <item itemvalue="JUnit.TestRandomizedQueue.testIterator" />
+        <item itemvalue="JUnit.TestRandomizedQueue.testIteratorNext_NoMore_Exception" />
+        <item itemvalue="JUnit.TestRandomizedQueue.testSample_Empty_Exception" />
+        <item itemvalue="JUnit.TestRandomizedQueue.testDequeue_Empty_Exception" />
+        <item itemvalue="JUnit.TestRandomizedQueue.testSample" />
       </list>
     </recent_temporary>
   </component>
@@ -190,10 +189,18 @@
           <line>67</line>
           <option name="timeStamp" value="13" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/company/TestRandomizedQueue.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Queues$TestRandomizedQueue_testIsEmpty.ic" NAME="TestRandomizedQueue.testIsEmpty Coverage Results" MODIFIED="1564913455852" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.company.*</FILTER>
+    </SUITE>
     <SUITE FILE_PATH="coverage/Queues$TestDeque_testAddLast.ic" NAME="TestDeque.testAddLast Coverage Results" MODIFIED="1564813936127" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>com.company.*</FILTER>
     </SUITE>
