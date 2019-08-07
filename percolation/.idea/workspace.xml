@@ -3,10 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="c1e4f978-b3bd-4ae1-84e9-9e1170bce808" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/../Queues/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Queues/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/checkstyle-idea.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/checkstyle-idea.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HelloWorld.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/InteractivePercolationVisualizer.class" beforeDir="false" afterPath="$PROJECT_DIR$/InteractivePercolationVisualizer.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/InteractivePercolationVisualizer.java" beforeDir="false" afterPath="$PROJECT_DIR$/InteractivePercolationVisualizer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Percolation.class" beforeDir="false" afterPath="$PROJECT_DIR$/Percolation.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Percolation.java" beforeDir="false" afterPath="$PROJECT_DIR$/Percolation.java" afterDir="false" />
@@ -167,14 +164,9 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/InteractivePercolationVisualizer.java</url>
-          <line>22</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/Percolation.java</url>
-          <line>29</line>
-          <option name="timeStamp" value="2" />
+          <line>160</line>
+          <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

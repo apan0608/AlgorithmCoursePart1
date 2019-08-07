@@ -36,6 +36,7 @@ public class Percolation {
         sizes = new int[no]; // default will be 0
         for (int i = 0; i < no; i++) {
             sites[i] = -1; // make all blocked to start with
+            sizes[i] = 1; // each site has a size of 1
         }
         // open the two virtual sites
         sites[0] = 0;
@@ -82,7 +83,7 @@ public class Percolation {
 
     // get the root of site index, and compress the roots
     private int getRoot(int site) {
-        while (sites[site] != site && sites[site] >= 9) { //if index equals to itself, it is the root, stop
+        while (sites[site] != site && sites[site] >= 0) { //if index equals to itself, it is the root, stop
             int parent = sites[site];
             site = sites[parent];
             compress(site);
