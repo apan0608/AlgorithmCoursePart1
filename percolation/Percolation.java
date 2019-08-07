@@ -36,11 +36,10 @@ public class Percolation {
         sizes = new int[no]; // default will be 0
         for (int i = 0; i < no; i++) {
             sites[i] = -1; // make all blocked to start with
-            sizes[i] = 0; // I don't think I need to do this step
         }
         // open the two virtual sites
         sites[0] = 0;
-        sites[no - 1] = 0;
+        sites[no - 1] =  no - 1; // connects to itself
     }
 
     // opens the site (row, col) if it is not open already
@@ -81,13 +80,25 @@ public class Percolation {
         sizes[larger] += sizes[smaller];
     }
 
+    // get the root of site index, and compress the roots
     private int getRoot(int site) {
-        while (sites[site] != site) { //if not connected to itself, end of root
+        while (sites[site] != site && sites[site] >= 9) { //if index equals to itself, it is the root, stop
             int parent = sites[site];
-            int grandparent = sites[parent];
-            site = grandparent;
+            site = sites[parent];
+            compress(site);
         }
         return site;
+    }
+
+    // todo add the compression later one after the main logic is working, then add in hte performance enchancement
+    private void compress(int site) {
+        // if the site connects to another one site is not root
+        if (sites[site] >= 0 && sites[site] != site) {
+            int parent = sites[site];
+            if (parent >= 0 && sites[parent] >= 0) { // if the parent site exists and grandparent site exists too
+                sites[site] = sites[parent];
+            }
+        }
     }
 
     // get the site index given the row and col, return -1 if site not exists
@@ -132,8 +143,6 @@ public class Percolation {
         return connected(getSiteIndex(row, col), 0);
     }
 
-
-
     // returns the numbers of open sites
     public int numberOfOpenSites() {
         int openSites = -2; // offset the two virtual sites first
@@ -150,7 +159,6 @@ public class Percolation {
         // the top virtual site connects to the bottom virtual site
         return connected(0, sites.length - 1);
     }
-
 
     private boolean connected(int siteA, int siteB) {
         return getRoot(siteA) == getRoot(siteB);
