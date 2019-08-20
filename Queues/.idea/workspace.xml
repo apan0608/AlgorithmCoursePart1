@@ -3,9 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="f507b2ca-181d-45d0-99e7-d6b71981bbe6" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Queues/com/company/TestDeque.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Queues/com/company/TestDeque.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/RandomizedQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/RandomizedQueue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/TestRandomizedQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/TestRandomizedQueue.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../percolation/.idea/checkstyle-idea.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../percolation/.idea/checkstyle-idea.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../percolation/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../percolation/.idea/workspace.xml" afterDir="false" />
     </list>
