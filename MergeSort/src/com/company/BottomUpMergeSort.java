@@ -15,16 +15,21 @@ public class BottomUpMergeSort {
     }
 
     public static void sort(Comparable[] a, int low, int mid, int high) {
-        Comparable[] aux = new Comparable[high - low + 1];
+        int length = high - low + 1;
+        Comparable[] aux = new Comparable[length];
+        // copy items from a to aux
+        for (int k = 0; k < length; k++) {
+            aux[k] = a[k + low];
+        }
         int i = low;
         int j = mid + 1;
         // loop till all items are copied across
         for (int count = low; count < high; count++) {
             if (a[i].compareTo(a[j]) <= 0) {
                 // in order, then copy i to aux
-                aux[count] = a[i++];
+                a[i++] = aux[count];
             } else {
-                aux[count] = a[j++];
+                a[j++] = aux[count];
             }
         }
         // after sorted, aux will copy back to original array
