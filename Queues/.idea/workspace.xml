@@ -2,14 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f507b2ca-181d-45d0-99e7-d6b71981bbe6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../MergeSort/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MergeSort/.idea/libraries/hamcrest_core_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MergeSort/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MergeSort/src/com/company/TestMergeSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MergeSort/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MergeSort/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MergeSort/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MergeSort/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MergeSort/MergeSort.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../MergeSort/MergeSort.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MergeSort/src/com/company/MergeSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MergeSort/src/com/company/MergeSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MergeSort/src/com/company/BottomUpMergeSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MergeSort/src/com/company/BottomUpMergeSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MergeSort/src/com/company/TestMergeSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MergeSort/src/com/company/TestMergeSort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
