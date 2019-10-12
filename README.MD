@@ -1,0 +1,1 @@
+// add some notes on how to run the java app and run the unit test 

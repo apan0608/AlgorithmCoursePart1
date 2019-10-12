@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6009f04d-5fa2-4ad6-a2ec-6048b45b324e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/QuickSort/src/com/company/QuickSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QuickSort/src/com/company/TestQuickSort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Queues/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Queues/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/QuickSort/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/QuickSort/src/com/company/Main.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -13,13 +15,6 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="ProjectConfigurationFiles">
-    <option name="files">
-      <list>
-        <option value="$PROJECT_DIR$/.idea/encodings.xml" />
-      </list>
-    </option>
   </component>
   <component name="ProjectId" id="1QEFCgpJDrlWobUUkHuWf7x9YK3" />
   <component name="PropertiesComponent">
