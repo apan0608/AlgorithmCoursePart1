@@ -1,11 +1,14 @@
+package com.quicksort;
 
 public class QuickSort {
 
-    public static void sort(Object[] unsortedm) {
-        // first randomly shuffle the array
-
+    public static void main(String args[]) {
+        
     }
 
+    public static void sort(Object[] unsorted) {
+        // first randomly shuffle the array
+    }
 
     private static void sort(Object[] unsorted, int low, int hi) {
         if (low == hi) return;
@@ -16,12 +19,12 @@ public class QuickSort {
         sort(unsorted, j + 1, hi);
     }
 
-    private static void partition(Object[] unsorted, int lo, int hi) {
+    private static int partition(Object[] unsorted, int lo, int hi) {
         int i = lo;
         int j = hi + 1;
 
         while (true) {
-            while ((less(unsorted[++i], unsorted[k])) {
+            while (less(unsorted[++i], unsorted[lo])) {
                 if (i == hi) {
                     break;
                 }
@@ -41,11 +44,13 @@ public class QuickSort {
     }
 
     // todo implement comparison betwen a and b
-    private boolean less(Bbject a, Object b) {
-        return a < b;
+    private static boolean less(Object a, Object b) {
+//        return a < b;
+        return true;
     }
 
-    private exchange(Object[] unsorted, int i, int j) {
+
+    private static void exchange(Object[] unsorted, int i, int j) {
         // todo do the exchange here
     }
 }
