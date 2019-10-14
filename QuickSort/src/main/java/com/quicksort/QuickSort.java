@@ -6,12 +6,15 @@ public class QuickSort {
         
     }
 
-    public static void sort(Object[] unsorted) {
-        // first randomly shuffle the array
+    // todo or can also pass in Comparator with Object[] other than using Comparable[],
+    public static void sort(Comparable[] unsorted) {
+        // todo shuffle first
+        // todo replace quick sort with insertion sort when array size is less than 10 items
+        sort(unsorted, 0, unsorted.length - 1);
     }
 
-    private static void sort(Object[] unsorted, int low, int hi) {
-        if (low == hi) return;
+    private static void sort(Comparable[] unsorted, int low, int hi) {
+        if (hi <= low) return;
 
         int j = partition(unsorted, low, hi);
 
@@ -19,7 +22,7 @@ public class QuickSort {
         sort(unsorted, j + 1, hi);
     }
 
-    private static int partition(Object[] unsorted, int lo, int hi) {
+    private static int partition(Comparable[] unsorted, int lo, int hi) {
         int i = lo;
         int j = hi + 1;
 
@@ -43,14 +46,13 @@ public class QuickSort {
         return j;
     }
 
-    // todo implement comparison betwen a and b
-    private static boolean less(Object a, Object b) {
-//        return a < b;
-        return true;
+    private static boolean less(Comparable a, Comparable b) {
+        return a.compareTo(b) < 0;
     }
 
-
-    private static void exchange(Object[] unsorted, int i, int j) {
-        // todo do the exchange here
+    private static void exchange(Comparable[] unsorted, int i, int j) {
+        Comparable reserved = unsorted[i];
+        unsorted[i] = unsorted[j];
+        unsorted[j] = reserved;
     }
 }
